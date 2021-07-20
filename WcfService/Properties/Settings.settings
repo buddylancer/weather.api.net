@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WcfService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Url1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://api.openweathermap.org/data/2.5/weather?zip={zipcode},{country}&amp;mode={mode}&amp;units={units}&amp;appid={key1}</Value>
+    </Setting>
+    <Setting Name="Url2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://maps.googleapis.com/maps/api/geocode/xml?address={zipcode},{country}&amp;key={key2}</Value>
+    </Setting>
+    <Setting Name="Url3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://maps.googleapis.com/maps/api/timezone/xml?location={lat},{lng}&amp;timestamp={timestamp}&amp;key={key2}</Value>
+    </Setting>
+    <Setting Name="ResponseOK" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;response&gt;&lt;status&gt;{status}&lt;/status&gt;&lt;city&gt;{city}&lt;/city&gt;&lt;temperature&gt;{temperature}&lt;/temperature&gt;&lt;timezone&gt;{timezone}&lt;/timezone&gt;&lt;/response&gt;</Value>
+    </Setting>
+    <Setting Name="ResponseERR" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;response&gt;&lt;status&gt;{status}&lt;/status&gt;&lt;error&gt;{error}&lt;/error&gt;</Value>
+    </Setting>
+    <Setting Name="Key1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">put-weather-api-key-here</Value>
+    </Setting>
+    <Setting Name="Key2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">put-google-api-key-here</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
