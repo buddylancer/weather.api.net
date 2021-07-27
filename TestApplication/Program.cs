@@ -4,8 +4,8 @@ using System.Text.RegularExpressions;
 
 namespace TestApplication
 {
-	class Program
-	{
+    class Program
+    {
         const String OK = "{OK}";
         const String ERR = "{ERR}";
 
@@ -67,8 +67,8 @@ namespace TestApplication
         /// Test application for testing Web API service.
         /// </summary>
         /// <param name="args"></param>
-		static void Main(string[] args)
-		{
+        static void Main(string[] args)
+        {
             int positiveTests = 0;
             int negativeTests = 0;
 
@@ -101,6 +101,6 @@ namespace TestApplication
 
             System.Console.Write("Press Enter to exit...");
             System.Console.ReadLine();
-		}
+        }
     }
 }

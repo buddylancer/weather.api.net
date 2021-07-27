@@ -2,14 +2,14 @@
 
 namespace ConsoleApplication
 {
-	class Program
-	{
+    class Program
+    {
         /// <summary>
         /// Console application for testing Web API service.
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
-		{
+        {
             // Loop until just press Enter
             while (true)
             {
@@ -23,6 +23,6 @@ namespace ConsoleApplication
                 // ...and print it
                 System.Console.WriteLine(response);
             }
-		}
-	}
+        }
+    }
 }
